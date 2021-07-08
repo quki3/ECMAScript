@@ -79,7 +79,35 @@ sumar(1+1)//? 2
   function sumar(a,b){return a + b}
   
   ```
-  https://www.youtube.com/watch?v=dMbgOWi9qUg&list=PL2PZw96yQChxuJMja3Aq--5AfBPCMc1kL&index=15
-  
+  # ejercicio 15 : crear  instancias de objetos por medio de constructores.
+  ```bash
+    new String('javaScript')//? string{"javascript}
+    [2,3,5,11]//? (5)[2,3,5,11]
+    function restar(a,b){return a - b;}
+    restar(2,3);//? -1
+    let restarFn = new function('a','b','return a - b');
+    restarFn(2,3);//? -1
+    let persona = {id:1,nombre:'juan'};//? {id:1,nombre:'juan'}
+    persona = new Object();//? {}
+    persona.id = 1//? {id:1}
+    persona.nombre = 'juan' //? {id:1,nombre: 'juan'}
+    
+   ```
+    # Ejercicio 16 validar si una variable tiene un valor asignado
+    ```bash
+    let a;
+    let b = 11;
+    
+    if(a === undefined){
+        console.log('La variable `a` aun no tiene un valor asignado.')//? 'La variable `a` aun no tiene un valor asignado.'
+    }
+    a = 'javascript'
+    
+    if(a === undefined){
+        console.log('la variable `a` aun no tiene un valor asignado')
+    }else{
+        console.log('La variable a tiene un valor asignado')//? 'La variable a tiene un valor asignado'
+    }
+    ```
   
   
