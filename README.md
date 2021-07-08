@@ -93,7 +93,8 @@ sumar(1+1)//? 2
     persona.nombre = 'juan' //? {id:1,nombre: 'juan'}
     
    ```
-    # Ejercicio 16 validar si una variable tiene un valor asignado
+   # Ejercicio 16 validar si una variable tiene un valor asignado
+    
     ```bash
     let a;
     let b = 11;
