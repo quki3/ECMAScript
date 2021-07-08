@@ -1,7 +1,7 @@
 # numbers
 # Math.abs()
 ```bash
-La función Math.abs(x) retorna el valor absoluto de un número
+La función Math.abs(x) retorna el valor absoluto/modulo de un número
 Parametros:
 x //? Un número.
 ----------------------------------------------------------------
