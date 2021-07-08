@@ -7,3 +7,6 @@
 ```bash
  cadena.toLowerCase() //? devuelve el valor en minúsculas de la cadena que realiza la llamada.
 ```
+## toUperCase
+
+## split()
