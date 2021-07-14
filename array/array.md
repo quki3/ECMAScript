@@ -24,3 +24,6 @@ console.log(animals);
 ```bash
 
 ```
+# every
+# some
+# forEach
