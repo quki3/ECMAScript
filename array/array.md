@@ -27,3 +27,4 @@ console.log(animals);
 # every
 # some
 # forEach
+# Array.from()
