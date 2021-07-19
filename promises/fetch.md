@@ -13,7 +13,7 @@
     method:'GET', //? nos permite cambiar el tipo de llamado que nosotros estamos utilizando GET\POST\PUT\DELETE
     mode:'cors', //? podemos indicar que vamos a hacer us de cors
     cache:'no-cache', //? podemos indicar que no queremos que el esplorador me devuelva el cache
-    credentials: 'same-origin,//? le podemos indicar si queremos utilizar credenciales a la hora de estar conectandonos con el servidor
+    credentials: 'same-origin',//? le podemos indicar si queremos utilizar credenciales a la hora de estar conectandonos con el servidor
     headers:{
       'content-type':'application/json'
     } //? son tipo de datos que podemos agregar con cada peticion podemos agregar un id para poder identificar al usuario en el servidor tambien podemos indicar el tipo de contenido que nosotro queremos
