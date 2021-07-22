@@ -28,3 +28,4 @@ console.log(animals);
 # some
 # forEach
 # Array.from()
+# .pop()
