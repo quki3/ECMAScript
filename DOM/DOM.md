@@ -1,7 +1,7 @@
 # DOM
 document
 ```bash
-  document.addEvantListener('DOMContentLoaded',algunafuncion);//? para pasarle una funcion solo cuuando el dom alla sido creado
+  document.addEvantListener('DOMContentLoaded',algunafuncion);//? `para pasarle una funcion solo cuuando el dom alla sido creado`
   
   document.getElementById()//?toma un elemento del html por su id
                            .textContent //?cambia e texto del contenido
