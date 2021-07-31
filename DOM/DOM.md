@@ -19,7 +19,10 @@ document
           .forms[0].campo.value
           .body.createElement('p');//?crea un elemento
           .body.appendchild(nuevoParrafo)//?
-  
+          
+          .addEventListener("DOMContentLoaded", function (){})//?para cargar el dom antes de ejecutar una  funcion
+                                                                  
+                                                                  
   
   
   
