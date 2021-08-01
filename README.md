@@ -110,5 +110,26 @@ sumar(1+1)//? 2
                     console.log('La variable a tiene un valor asignado')//? 'La variable a tiene un valor asignado'
                 }
     ```
-  
+  # Ejercicio 17 determinar si una variable ha sido declarada con la funcion typeof
+    ```javascript
+    let a;//? definida
+    let b = 11;//?definida y daclarado un valor
+    
+    console.log(typeof a)
+    console.log(typeof b)
+    
+    console.log()//?salto de linea
+    if (typeof a === 'undefined'){
+        console.log('la variable a no tiene asignado un valor')
+    }else{
+        console.log('la variable a tiene asignado un valor')
+    }
+    
+    colsole.log()//? salto de linea
+    if (typeof b === 'undefined'){
+        console.log('la variable b no tiene asignado un valor')
+    }else{
+        console.log('la variable b tiene asignado un valor')
+    }
+    ```
   
