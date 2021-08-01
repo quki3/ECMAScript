@@ -93,9 +93,9 @@ sumar(1+1)//? 2
     persona.nombre = 'juan' //? {id:1,nombre: 'juan'}
     
    ```
-   # Ejercicio 16 validar si una variable tiene un valor asignado
+   # Ejercicio 16 :validar si una variable tiene un valor asignado.
     
-    ```javascript
+   ```javascript
                 let a;
                 let b = 11;
 
@@ -109,9 +109,9 @@ sumar(1+1)//? 2
                 }else{
                     console.log('La variable a tiene un valor asignado')//? 'La variable a tiene un valor asignado'
                 }
-    ```
-  # Ejercicio 17 determinar si una variable ha sido declarada con la funcion typeof
-    ```javascript
+   ```
+  # Ejercicio 17 :determinar si una variable ha sido declarada con la funcion typeof.
+  ```javascript
     let a;//? definida
     let b = 11;//?definida y daclarado un valor
     
@@ -131,5 +131,5 @@ sumar(1+1)//? 2
     }else{
         console.log('la variable b tiene asignado un valor')
     }
-    ```
+  ```
   
