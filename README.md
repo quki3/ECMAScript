@@ -96,19 +96,19 @@ sumar(1+1)//? 2
    # Ejercicio 16 validar si una variable tiene un valor asignado
     
     ```javascript
-    let a;
-    let b = 11;
-    
-    if(a === undefined){
-        console.log('La variable `a` aun no tiene un valor asignado.')//? 'La variable `a` aun no tiene un valor asignado.'
-    }
-    a = 'javascript'
-    
-    if(a === undefined){
-        console.log('la variable `a` aun no tiene un valor asignado')
-    }else{
-        console.log('La variable a tiene un valor asignado')//? 'La variable a tiene un valor asignado'
-    }
+                let a;
+                let b = 11;
+
+                if(a === undefined){
+                    console.log('La variable `a` aun no tiene un valor asignado.')//? 'La variable `a` aun no tiene un valor                asignado.'
+                }
+                a = 'javascript'
+
+                if(a === undefined){
+                    console.log('la variable `a` aun no tiene un valor asignado')
+                }else{
+                    console.log('La variable a tiene un valor asignado')//? 'La variable a tiene un valor asignado'
+                }
     ```
   
   
