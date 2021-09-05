@@ -29,3 +29,16 @@ console.log(animals);
 # forEach
 # Array.from()
 # .pop()
+# shift() 
+este metodo modifica el array y saca y debuelve el primer elemento de un array
+```javascript
+const array1 = [1, 2, 3];
+
+const firstElement = array1.shift();
+
+console.log(array1);
+// expected output: Array [2, 3]
+
+console.log(firstElement);
+// expected output: 1
+```
