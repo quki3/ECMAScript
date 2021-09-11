@@ -29,6 +29,21 @@ console.log(animals);
 # forEach
 # Array.from()
 # .pop()
+El método pop() elimina el último elemento de un array y lo devuelve. Este método cambia la longitud del array.
+```javascript
+const plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
+
+console.log(plants.pop());
+// expected output: "tomato"
+
+console.log(plants);
+// expected output: Array ["broccoli", "cauliflower", "cabbage", "kale"]
+
+plants.pop();
+
+console.log(plants);
+// expected output: Array ["broccoli", "cauliflower", "cabbage"]
+```
 # shift() 
 este metodo modifica el array y saca y debuelve el primer elemento de un array
 ```javascript
