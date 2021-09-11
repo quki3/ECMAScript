@@ -1,4 +1,14 @@
 # metodos
+# Find()
+El método find() devuelve el valor del primer elemento del array que cumple la función de prueba proporcionada.
+```javascript
+const array1 = [5, 12, 8, 130, 44];
+
+const found = array1.find(element => element > 10);
+
+console.log(found);
+// expected output: 12
+```
 # push()
 ```bash
 "El método push() añade uno o más elementos al final de un array y devuelve la nueva longitud del array.
