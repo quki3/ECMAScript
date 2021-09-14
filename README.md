@@ -1,5 +1,6 @@
 # Javascript.__GB__
 logic code
+
 # ejercicio 9 crear variables con la sentencia var
 ```javascript
 var numero;
