@@ -1,8 +1,8 @@
-# Javascript.__GB__
-logic code
+//# Javascript.__GB__
+//logic code
 
-# ejercicio 9 crear variables con la sentencia var
-```javascript
+//# ejercicio 9 crear variables con la sentencia var
+
 var numero;
 var x,y;
 var a=1,b='javascript';
@@ -11,19 +11,19 @@ numero = 7;
 typeof(numero)//? number
 nunero = '7'
 typeof(numero)//? string
-```
-# ejercicio numero 10: declarar una funcion usando la instruccion function
-```javascript
+
+//# ejercicio numero 10: declarar una funcion usando la instruccion function
+
 function sumar(a,b){
     var suma = a + b;
     return suma
 }
 sumar(1+1)//? 2
-```
-# ejercicio 11: resolver ploblemas de referencia de variables
-  -Error tipico
-  -ReferenceError:<<identificador>> is not defined
-```javascript
+/
+// # ejercicio 11: resolver ploblemas de referencia de variables
+ // -Error tipico
+  //-ReferenceError:<<identificador>> is not defined
+
   var numero = 7;
   function mostrarSaludo(){
       var mensaje = 'hola... Este codigo se ejecuta en una funcion'
@@ -32,9 +32,9 @@ sumar(1+1)//? 2
   }
   console.log(mensaje)//? ReferenceError: mensaje is not defined
   
-```
-# ejercicio 12: Estudiar el comportamiento del alcance o contexto funcional.
-```javascript
+
+// ejercicio 12: Estudiar el comportamiento del alcance o contexto funcional.
+
   function funcion1(){
     var a = 2;
     
@@ -54,10 +54,10 @@ sumar(1+1)//? 2
       console.log(a)//? 7
     }
   }
-```
-  # ejercicio 13: creacion de una constante con la sentencia const.
+
+  // ejercicio 13: creacion de una constante con la sentencia const.
   
- ```javascript
+
   var nombre = 'Edward';
   let lenguaje = 'javaScript;
   const PI = '3.141592';
@@ -65,9 +65,9 @@ sumar(1+1)//? 2
   nombre = 'Edward Ortiz';
   lenguaje = 'JavasScript ES6'
   PI = 3.1415//? typeError: Assignment to constant variable.
- ```
-  # Ejercicio 14: crear y usar literales de diferentes tipos de datos.
-  ```javascript
+ 
+  //# Ejercicio 14: crear y usar literales de diferentes tipos de datos.
+  
   let nombre = new String('Edward Ortiz');//? String{'Edward Ortiz'}
   let nombre = "Edward Ortiz"//? "Edward Ortiz"
   let puntaje = 1000;//? 1000
@@ -79,9 +79,9 @@ sumar(1+1)//? 2
   let computador = {'marca':'MSi'}//? {'marca':'MSi'}
   function sumar(a,b){return a + b}
   
-  ```
-  # ejercicio 15 : crear  instancias de objetos por medio de constructores.
-  ```javascript
+ 
+  //# ejercicio 15 : crear  instancias de objetos por medio de constructores.
+  
     new String('javaScript')//? string{"javascript}
     [2,3,5,11]//? (5)[2,3,5,11]
     function restar(a,b){return a - b;}
@@ -93,10 +93,10 @@ sumar(1+1)//? 2
     persona.id = 1//? {id:1}
     persona.nombre = 'juan' //? {id:1,nombre: 'juan'}
     
-   ```
-   # Ejercicio 16 :validar si una variable tiene un valor asignado.
+  
+   //# Ejercicio 16 :validar si una variable tiene un valor asignado.
     
-   ```javascript
+   
                 let a;
                 let b = 11;
 
@@ -110,10 +110,10 @@ sumar(1+1)//? 2
                 }else{
                     console.log('La variable a tiene un valor asignado')//? 'La variable a tiene un valor asignado'
                 }
-   ```
-    # ejercicio 17 determinar si una variable ha sido declarada con la funcion typeof
+   
+   // # ejercicio 17 determinar si una variable ha sido declarada con la funcion typeof
 
-    ```js
+   
     let a;
     let b=11;
 
@@ -131,10 +131,10 @@ sumar(1+1)//? 2
     }else{
       console.log("la variable a tiene asignado un valor")
     }
-    ```
-    # ejercicio 18 comprovemos si una funcion retorna cvalor
+   
+   // # ejercicio 18 comprovemos si una funcion retorna cvalor
 
-```javascript
+
     function function1(){
       return;
     }
@@ -179,6 +179,6 @@ sumar(1+1)//? 2
     if(fn5===undefined){
       console.log("no retorna")
     }else{console.log("retorna")}
- ```
+
   
   
