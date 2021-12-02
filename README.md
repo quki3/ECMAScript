@@ -110,5 +110,73 @@ sumar(1+1)//? 2
         console.log('La variable a tiene un valor asignado')//? 'La variable a tiene un valor asignado'
     }
     ```
+    # ejercicio 17 determinar si una variable ha sido declarada con la funcion typeof
+
+    ```js
+    let a;
+    let b=11;
+
+    console.log(typeof a);
+    console.log(typeof b);
+
+    if(typeof a === 'undefined'){
+      console.log("la variable a ni tiene asignado un valor")
+    }else{
+      console.log("la variable a tiene asignado un valor")
+    }
+
+    if(typeof b === 'undefined'){
+      console.log("la variable a ni tiene asignado un valor")
+    }else{
+      console.log("la variable a tiene asignado un valor")
+    }
+    ```
+    # ejercicio 18 comprovemos si una funcion retorna cvalor
+    ```javascript
+    function function1(){
+      return;
+    }
+
+    function function2(){
+      const A = 3;
+    }
+    function function3(){
+      return 2 + 2;
+    
+    }
+    function function4(){
+      return true;
+    }
+    function function5(){
+      return {};
+    }
+    
+    let fn1 = function1();
+    console.log(fn1)
+    let fn2 = function1();
+    console.log(fn2)
+    let fn3 = function1();
+    console.log(fn3)
+    let fn4 = function1();
+    console.log(fn4)
+    let fn5 = function1();
+    console.log(fn5)
+    
+    if(fn1===undefined){
+      console.log("no retorna")
+    }else{console.log("retorna")}
+    if(fn2===undefined){
+      console.log("no retorna")
+    }else{console.log("retorna")}
+    if(fn3===undefined){
+      console.log("no retorna")
+    }else{console.log("retorna")}
+    if(fn4===undefined){
+      console.log("no retorna")
+    }else{console.log("retorna")}
+    if(fn5===undefined){
+      console.log("no retorna")
+    }else{console.log("retorna")}
+    ```
   
   
