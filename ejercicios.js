@@ -181,4 +181,60 @@ sumar(1+1)//? 2
     }else{console.log("retorna")}
 
   
-  
+//ejercicio 19 validar si una variable es undefined o null 
+let numero = undefined;
+
+if(numero===undefined){
+  console.log('la variable numero es undefined');
+}
+if (numero ===null){
+  console.log('la variable nuero es null')
+}
+if(!numero){
+  console.log('la variable numero es null')
+}
+
+
+//ejercicio 20 uso basico del operador de igualdad estricto
+
+//===
+let numero = 5;
+
+console.log(
+  numero ==5,
+  numero =="5",
+  numero ==="5",
+  numero === 5
+);
+
+//ejercicio 21 uso de los operadores relacionales
+
+//<,<=,>,>=,==,===
+
+let numero = 5;
+
+if(numero < 7){
+  console.log(
+    `${numero} es menor a 7`
+  )
+}else{
+  console.log(`${numero} no es menor a `)
+}
+
+if(numero <= 5){
+  console.log(`${numero} es menor o = a 5`)
+}else{
+  console.log(`${numero} no es menor o = a 5`)
+}
+
+if(numero > 7 ){
+  console.log(`${numero } es mayyro a 7`)
+}else{
+  console.log(`${numero} no es mayor a 7`)
+}
+
+if( numero >=5 ){
+  console.log(`${numero} es mayor o igual 5`)
+}else{
+  console.log(`${numero} no es mayor o = a 5`)
+}
