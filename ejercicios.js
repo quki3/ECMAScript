@@ -59,7 +59,7 @@ sumar(1+1)//? 2
   
 
   var nombre = 'Edward';
-  let lenguaje = 'javaScript;
+  let lenguaje = 'javaScript'
   const PI = '3.141592';
   
   nombre = 'Edward Ortiz';
@@ -238,3 +238,14 @@ if( numero >=5 ){
 }else{
   console.log(`${numero} no es mayor o = a 5`)
 }
+
+///22 diferencias entre null y andefined
+let a ;
+let b = null;
+
+console.log(typeof a === 'undefined');
+console.log(typeof a ===null);
+console.log(typeof b === 'undefined');
+console.log(typeof b ===null);
+
+//ejercicios 23
