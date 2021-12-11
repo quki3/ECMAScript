@@ -1,5 +1,4 @@
-//# Javascript.__GB__
-//logic code
+/* Javascript.__GB__ logic code*/
 
 //# ejercicio 9 crear variables con la sentencia var
 
@@ -248,4 +247,56 @@ console.log(typeof a ===null);
 console.log(typeof b === 'undefined');
 console.log(typeof b ===null);
 
-//ejercicios 23
+//ejercicios 23 realizar la promocion de valor a tipo logico(bolean o coersinbg)
+
+console.log(Boolean(-0))
+
+console.log(Boolean(0))
+
+console.log(Boolean(-1))//
+
+console.log(Boolean(1))//true
+
+console.log(Boolean(new Number(0)//esto retorna true raro no?
+
+console.log(Boolean(NaN))//false
+console.log(Boolean(undefined))
+console.log(Boolean(null))//false
+console.log(Boolean(""))//false
+console.log(Boolean(new String()))//true
+
+console.log(Boolean("true"))//true
+console.log(Boolean("false"))//true
+
+console.log(Boolean({}))//true
+console.log(Boolean([]))//true
+
+let fn = function(){};
+
+console.log(Boolean(fn))//true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
