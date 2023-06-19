@@ -29,13 +29,20 @@ test('hideDetailsBtn to be in dom jest-dom',()=>{
 	expect(hideDetailsBtn).toBeInTheDocument();
 });
 	//4
-test('removedHideDetailsBtn',()=>{
+test('removedDisplayDetailsBtn',()=>{
 	render(<Profile/>)
-	const removedHideDetails = screen.queryByRole('button',{name:
-		/hide details/i})
-	expect(removedHideDetailsBtn).toBeFalsy();
-});
+	const removedDisplayDetailsBtn = screen.queryByRole('button',{name:
+		/Display Details/i})
+	expect(removedDisplayDetailsBtn).toBeFalsy();
+	expect(removedDisplayDetailsBtn).not.toBeInTheDocument();
 
+});
+test('removedDisplayDetailsBtn',()=>{
+	render(<Profile/>);
+	const removedDisplayDetailsBtn = screen.queryByRole('button',{name:
+		/Display Details/i})
+	expect(removedDisplayDetailsBtn).not.toBeInTheDocument();
+});
 
 });
 
