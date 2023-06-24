@@ -1,6 +1,6 @@
 # ECMAScript
-` Last update jun 23 2023 `
-
+` Last update jun 24 2023 `
+## Welcome
 ## Introduction
 Althrough the years of 90, the most user was connec to internet with modems of low speed. in this years was starting to develop the first aplication web and therefore the web page start to include form more complex.
 With increasingly complex web applications and such slow browsing speed, the need for a programming language that could run in the user's browser emerged. This way, if the user didn't fill out a form correctly, they wouldn't have to wait for a long time until the server displayed the form again, indicating the existing errors.
