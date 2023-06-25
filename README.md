@@ -25,4 +25,11 @@ To avoid a technology war, Netscape decided that the best approach would be to s
 
 
 ## CHALLENGES
-1. - (A) @@you @ sayed in ECMA OBjects make a challenger with this.
+1. -
+2. -
+3. - create a login with Oauth2 on google your <a href="https://github.com/googleapis/google-api-nodejs-client/tree/main">doc.</a>
+4. -
+5. -
+6. -
+7. -
+8. -
