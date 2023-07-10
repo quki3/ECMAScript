@@ -14,14 +14,14 @@
 
 'use strict';
 
-const fs = require('fs');
-const path = require('path');
-const http = require('http');
-const url = require('url');
-const opn = require('open');
-const destroyer = require('server-destroy');
+const fs = import('fs');
+const path = import('path');
+const http = import('http');
+const url = import('url');
+const opn = import('open');
+const destroyer = import('server-destroy');
 
-const {google} = require('googleapis');
+const {google} = import('googleapis');
 const people = google.people('v1');
 
 /**
