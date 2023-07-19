@@ -1,5 +1,5 @@
 # ECMAScript
-` Last update jun 29 2023 `
+` Last update 19 july 2023 `
 ## Welcome
 ## Introduction
 wiki.
@@ -20,10 +20,9 @@ wiki.
 
 
 ## CHALLENGES
-1. -a/ collection build in object use build in Object per create inheritance
+1. - a/ collection build in object use build in Object per create inheritance
 2. -
-3. - 3/
-     - a/ create a login with Oauth2 on google your <a href="https://github.com/googleapis/google-api-nodejs-client/tree/main">doc.</a>
+3. - a/ create a login with Oauth2 on google your <a href="https://github.com/googleapis/google-api-nodejs-client/tree/main">doc.</a>
 4. -
 5. -
 6. -
