@@ -1,2 +1,2 @@
 # getting started
-1. <b>simpleExplamle</a> stack: node, docker, pnpn
+1. <b>simpleExplamle</b> stack: node, docker, pnpn
