@@ -1,0 +1,14 @@
+services:
+  backend:
+    image: backend
+    build:
+      context: .
+    ports:
+      - 8081:8081 # specific port
+      - 9229:9229 # for debugging
+    volumes:
+      - .:/mnt/src/app
+      - /mnt/src/app/node_modules # just say to docker were are node_modules?
+    environment:
+      PORT: 8081
+

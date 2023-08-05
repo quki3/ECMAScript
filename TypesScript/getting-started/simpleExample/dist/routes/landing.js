@@ -1,0 +1,8 @@
+"use strict";
+const router = require("express").Router();
+router.get("/", (req, res)=>res.json({
+        hello: "world"
+    }));
+module.exports = router;
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9yb3V0ZXMvbGFuZGluZy5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCByb3V0ZXIgPSByZXF1aXJlKCdleHByZXNzJykuUm91dGVyKClcblxucm91dGVyLmdldCgnLycsKHJlcSwgcmVzKT0+cmVzLmpzb24oe2hlbGxvOiAnd29ybGQnfSkpXG5cbm1vZHVsZS5leHBvcnRzID0gcm91dGVyXG4iXSwibmFtZXMiOlsicm91dGVyIiwicmVxdWlyZSIsIlJvdXRlciIsImdldCIsInJlcSIsInJlcyIsImpzb24iLCJoZWxsbyIsIm1vZHVsZSIsImV4cG9ydHMiXSwibWFwcGluZ3MiOiI7QUFBQSxNQUFNQSxTQUFTQyxRQUFRLFdBQVdDLE1BQU07QUFFeENGLE9BQU9HLEdBQUcsQ0FBQyxLQUFJLENBQUNDLEtBQUtDLE1BQU1BLElBQUlDLElBQUksQ0FBQztRQUFDQyxPQUFPO0lBQU87QUFFbkRDLE9BQU9DLE9BQU8sR0FBR1QifQ==
