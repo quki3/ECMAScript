@@ -1,16 +1,14 @@
 FROM node:18
 
-RUN npm i -g pnpm
-
 WORKDIR /mnt/src/app
 
 copy package.json ./
 
-RUN pnpm install
+RUN npm install
 
 COPY . .
 
 EXPOSE 8080
 
-CMD ["pnpm","start:docker"]
+CMD ["npm run","start:docker"]
 
