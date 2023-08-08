@@ -3,5 +3,23 @@
 3. `npm run dev`
 4. edit app/page.tsx
    ```js
-   import { fitting } from '@components'
+   import { Fitting } from '@components'
+
+   export default function Home() {
+      returnn (
+         <>
+            <Fitting/>
+         </>
+      )
+   }
+   
+   ```
+5. config @components `mkdir components/index.ts`
+   ```js
+      import Fitting from "./Fitting"
+
+      export {
+         Fitting
+      }
+   ```
    
