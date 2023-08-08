@@ -22,4 +22,17 @@
          Fitting
       }
    ```
+6. fit what have in ./fitting.tsx
+   ```js
+   const Fittinig = () => {
+      const handle=()=>{}
+      return (
+         <main>
+            <h1>title</h1>
+            
+            <CustomButton/>
+         </main>
+      )
+   }
+   ```
    
